@@ -37,10 +37,9 @@ This repository hosts the **downloads and release notes** only. It contains no s
    3. Open **D4 Builder** again. A second dialog appears — click **Open Anyway** once more (and enter your password if asked).
 
    This is needed only once per downloaded version.
-3. **Keychain prompt.** When the app starts it may ask: *"D4 Builder wants to use your confidential information stored in "D4 Builder" in your keychain."* This is the app reading its own saved connection key. Enter your Mac login password and click **Always Allow** so it doesn't ask again.
-4. Allow **Screen Recording** when asked (System Settings → Privacy & Security → Screen & System Audio Recording → turn on D4 Builder), then quit and reopen the app.
-5. D4 Builder lives in the menu bar (no Dock icon). Click its icon to open the window.
-6. **Link the app:** sign up for free at https://d4bd.trenddigestnews.com/account/ (Google, email link or Battle.net), create an **app connection key**, and paste it into the app's **Settings → Account**. The overlay needs a linked key; importing builds and browsing steps work without one.
+3. Allow **Screen Recording** when asked (System Settings → Privacy & Security → Screen & System Audio Recording → turn on D4 Builder), then quit and reopen the app.
+4. D4 Builder lives in the menu bar (no Dock icon). Click its icon to open the window.
+5. **Link the app:** sign up for free at https://d4bd.trenddigestnews.com/account/ (Google, email link or Battle.net), create an **app connection key**, and paste it into the app's **Settings → Account**. The overlay needs a linked key; importing builds and browsing steps work without one.
 
 To verify a download: `shasum -a 256 D4-Builder-<version>-mac.dmg` and compare with the `.sha256` file attached to the release.
 
@@ -60,7 +59,7 @@ No third-party tool is risk-free. Using one is your own responsibility under Bli
 
 ## Feedback
 
-Bug reports, ideas and questions: from v0.9.1, use **Send feedback…** in the app's menu-bar menu or https://d4bd.trenddigestnews.com/account/#feedback (sign-in required). Until then, an import error in the app can be reported with **Report this error**.
+Bug reports, ideas and questions: **Send feedback…** in the app's menu-bar menu, or https://d4bd.trenddigestnews.com/account/#feedback (sign-in required). You can follow the status and replies in the app and on your account page. Import errors can also be sent with **Report this error**.
 
 Privacy policy: https://d4bd.trenddigestnews.com/privacy/
 
