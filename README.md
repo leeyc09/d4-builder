@@ -30,10 +30,15 @@ This repository hosts the **downloads and release notes** only. It contains no s
 
 ## Install
 
-1. Download `D4-Builder-<version>-mac.dmg` from [Releases](https://github.com/leeyc09/d4-builder/releases/latest) and drag **D4 Builder** into Applications.
-2. Open it once. The app is self-signed (not notarized by Apple), so macOS blocks the first launch.
-3. Go to **System Settings → Privacy & Security** and click **Open Anyway**, then confirm.
-4. Allow **Screen Recording** when asked, then reopen the app.
+1. Download `D4-Builder-<version>-mac.dmg` from [Releases](https://github.com/leeyc09/d4-builder/releases/latest), open it and drag **D4 Builder** into **Applications**. Eject the dmg and launch the app from Applications (not from inside the dmg).
+2. **First launch — macOS asks twice.** The app is self-signed (not notarized by Apple), so:
+   1. Open **D4 Builder**. macOS says it can't verify the app — click **Done** (do not move it to the Trash).
+   2. Go to **System Settings → Privacy & Security**, scroll down to the D4 Builder message and click **Open Anyway**, then enter your Mac password.
+   3. Open **D4 Builder** again. A second dialog appears — click **Open Anyway** once more (and enter your password if asked).
+
+   This is needed only once per downloaded version.
+3. **Keychain prompt.** When the app starts it may ask: *"D4 Builder wants to use your confidential information stored in "D4 Builder" in your keychain."* This is the app reading its own saved connection key. Enter your Mac login password and click **Always Allow** so it doesn't ask again.
+4. Allow **Screen Recording** when asked (System Settings → Privacy & Security → Screen & System Audio Recording → turn on D4 Builder), then quit and reopen the app.
 5. D4 Builder lives in the menu bar (no Dock icon). Click its icon to open the window.
 6. **Link the app:** sign up for free at https://d4bd.trenddigestnews.com/account/ (Google, email link or Battle.net), create an **app connection key**, and paste it into the app's **Settings → Account**. The overlay needs a linked key; importing builds and browsing steps work without one.
 
