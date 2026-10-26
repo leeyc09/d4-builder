@@ -19,9 +19,7 @@ This repository hosts the **downloads and release notes** only. It contains no s
 
   ![Paragon guide — the nodes to take and the board details](docs/images/paragon-guide-1280.en.webp)
 
-- **Guide card** — instead of drawing over the whole game window, one small card you place anywhere over the game or on a second monitor. Drag to move, change its width and opacity, and lock it so clicks pass through to the game.
-
-  ![Guide card — the skills to take in this step](docs/images/guide-card-game.en.webp)
+- **Guide card** — one small card instead of drawing over the whole game window. See [Guide card mode](#guide-card-mode) below.
 
 - **New board guide** — a card shows which board to attach and how to rotate it; in the in-game preview it tells you whether you picked the right board.
 
@@ -36,6 +34,41 @@ This repository hosts the **downloads and release notes** only. It contains no s
 | Main window | Gear checklist |
 |---|---|
 | ![Main window — import a build and browse its steps](docs/images/main-window.en.webp) | ![Gear checklist](docs/images/gear-checklist.en.webp) |
+
+## Guide card mode
+
+The guide can be shown in two ways. Screen recognition and auto-advance are the same; only how the guide is shown differs.
+
+| | Overlay (default) | Guide card |
+|---|---|---|
+| Where | Drawn over the whole game window | One small card — anywhere over the game or on a second monitor |
+| Nodes | Yellow boxes, green checks and labels on the nodes themselves | The skills and nodes to take as a numbered list, ✓ once taken |
+| Paragon | Drawn on the board · arrows for off-screen boards | Board, rotation, gate and glyph + a mini board map (whole board / zoomed on the next node) |
+| Clicks | Always pass through to the game | The card takes them while unlocked (drag, buttons) · pass through once locked |
+
+![Guide card — the skills to take in this step](docs/images/guide-card-game.en.webp)
+
+**Switching:** click **Overlay / Guide card** in the bar at the bottom of the app window (next to the on/off switch). You can also pick it in Settings (Mac: Settings › Display, Windows: Settings › Overlay › Display). It applies right away.
+
+<img src="docs/images/guide-card-switch.en.webp" alt="Overlay / Guide card switch in the bottom bar" width="460">
+
+**Using the card**
+
+- Drag the card to move it; drag its right edge to change the width (280–600). Position, width, opacity and lock are remembered.
+- **Card opacity** 30–100% lets the game show through.
+- **Lock card**: once it is where you want it, lock it. Clicks pass through to the game and the button row hides.
+- In Paragon steps a mini board map with a legend (taken · to take · next · key nodes) sits under the card. The map button or shortcut toggles between the whole board and the area around the next node.
+
+<img src="docs/images/guide-card-paragon.en.webp" alt="Guide card in a Paragon step — board details and the mini board map" width="480">
+
+| Action | Mac | Windows |
+|---|---|---|
+| Next · previous step | ⌥⌘→ · ⌥⌘← | Ctrl+Alt+→ · Ctrl+Alt+← |
+| Show · hide the card | ⌥⌘H | Ctrl+Alt+H |
+| Lock · unlock the card | ⌥⌘K | Ctrl+Alt+K |
+| Paragon map: whole board ↔ around the next node | ⌥⌘B | Ctrl+Alt+M |
+
+The guide card reads the game screen too. Only the display differs; it works the same way as the overlay. More: [Guide card guide](https://d4bd.trenddigestnews.com/guide/en/guide-card/) · [video](https://www.youtube.com/watch?v=sh3S_qt2qRE)
 
 ## Requirements
 
